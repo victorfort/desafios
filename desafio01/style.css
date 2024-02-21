@@ -1,0 +1,73 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+header{
+    height: 150px;
+    display: block;
+    margin: auto;
+    background-color: #000000;
+    color: white;
+}
+body{
+    background: linear-gradient(to bottom, #7d5f12, #3b2b03);
+
+}
+header > h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 20px;
+font-size: 2em;
+
+
+text-align: center;
+
+}
+header > p {
+    text-align: center;
+    font-size: 1.2em;
+
+}
+nav > a{
+    text-decoration: none;
+    padding: 5px;
+    color: inherit;
+    border: #000000;
+
+
+}
+nav.container{
+    display: flex;
+    padding: 5px;
+    
+}
+section#principal{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section#principal > div#descicao{
+
+    border-color: black;
+
+}
+
+
+section#principal > div#foto{
+    display: block;
+    background: black url(cachorro.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 300px;
+
+}
+/*faz com que fiquei lado a lado*/
+div#descricao, div#foto{
+    flex: 1;
+    padding: 5px;
+}
+
+
