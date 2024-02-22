@@ -105,10 +105,27 @@ div.campo{
     margin-bottom: 10px;
 }
  div#sol{
-    margin-top: 30px;
-    font-size: 1em;
+    margin-top: 30px;    
+    height: 40px;
+    width: 60px;
     text-align: center;
-    border:2px  solid #000000;
-    background-color: #ffe100;
-
  }
+
+ input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    background-color: #7d690f;
+    color: white;
+    text-align: center;
+    transform: translatex(80px);
+    
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #3d3312;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
+    transition: 0.5s;
+    border: 1px solid #0a0a0a;
+}
