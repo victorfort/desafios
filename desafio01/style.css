@@ -5,14 +5,18 @@
 
 }
 header{
-    height: 150px;
+    height: 20vh;
     display: block;
     margin: auto;
     background-color: #000000;
     color: white;
 }
+main{
+    height: 73vh;;
+}
 body{
     background: linear-gradient(to bottom, #7d5f12, #3b2b03);
+    
 
 }
 header > h1{
@@ -38,20 +42,30 @@ nav > a{
 
 }
 nav.container{
-    display: flex;
+    display: block;
+    
     padding: 5px;
     
 }
 section#principal{
-    display: flex;
-    padding: 20px;
-    text-align: center;
+    display: contents;
+    max-height: 500px;
+    width: 75vw;
+
+    
+    
 
 }
 
-section#principal > div#descicao{
+div#descricao{
+    display: flex;
+    line-height: 1.7;
 
-    border-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+
 
 }
 
@@ -60,7 +74,7 @@ section#principal > div#foto{
     display: block;
     background: black url(cachorro.jpg) no-repeat;
     background-size: cover;
-    background-position: center ;
+    background-position: top left ;
     height: 300px;
 
 }
