@@ -17,6 +17,7 @@ main{
 body{
     background: linear-gradient(to bottom, #7d5f12, #3b2b03);
     
+    
 
 }
 header > h1{
@@ -37,51 +38,75 @@ nav > a{
     text-decoration: none;
     padding: 5px;
     color: inherit;
-    border: #000000;
-
-
+    border: 2px solid black;
+    font-size: bold;
 }
+
+nav > a:hover{
+    background-color: #775506;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
+    transition: 0.5s;
+}
+
 nav.container{
-    display: block;
     
+    display: block;
+    margin-top: 20px;
     padding: 5px;
     
 }
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 section#principal{
-    display: contents;
-    max-height: 500px;
-    width: 75vw;
-
+    
+    max-height: 800px;
+    width: 60vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 11, 11);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.523);
+    border-radius: 5px;
     
     
 
 }
 
 div#descricao{
-    display: flex;
-    line-height: 1.7;
+    line-height: 1.9;
+    justify-content: center;
 
     color: white;
     font-size: 15px;
     text-align: center;
-    padding: 20px;
-
-
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
+    flex: 1;
+    max-height:350px ;
+    overflow: scroll;
+    overflow: hidden;
+    min-height: 350px;
 }
-
-
+div#descricao > p{
+    margin: 20px;
+}
 section#principal > div#foto{
     display: block;
     background: black url(cachorro.jpg) no-repeat;
     background-size: cover;
     background-position: top left ;
-    height: 300px;
+    min-height: 350px;
+    flex: 1;
+    border-radius: 0px 5px 5px 0px;
 
 }
 /*faz com que fiquei lado a lado*/
 div#descricao, div#foto{
     flex: 1;
-    padding: 5px;
+    
 }
 
 
