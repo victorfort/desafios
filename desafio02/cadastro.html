@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Animal Kingdom
+        </h1>
+        <p>O lugar perfeito para cuidar e mimar seu melhor amigo!</p>
+    </header>
+    <nav class="container">
+        
+            <a href="">Home</a>
+            <a href="#">Serviços</a>
+            <a href="#">Sobre</a>
+    </nav>
+        
+<main >
+    <section id="principal">
+        <div id="foto"></div>
+        <div id="formulario">
+            <h1>Agendamento</h1>
+            <P>Informe o serviço e o horário desejado:</P>
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div class="campo" >
+                    <label for="ihora">Horário: </label>
+                    <input type="time" name="hora" id="ihora">
+
+                    
+                </div>
+                <div class="campo">
+                    <label for="escolha">Escolha uma opção:</label>
+                    <select id="escolha" name="escolha">
+                    <option value="opcao1">Banho</option>
+                    <option value="opcao2">Tosa</option>
+                    <option value="opcao3">Bano e tosa</option>
+                    <option value="opcao4">Creche</option>
+                </select>
+                </div>
+                <div id="sol"><input type="submit"  value="Solicitar" name="sol" id="isol"></div>
+            </form>
+
+        </div>
+    </section>
+
+</main>
+    
+</body>
+</html>
