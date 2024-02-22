@@ -101,8 +101,8 @@ div#formulario > h1 {
     margin: 20px;
 
 }
-div.campo{
-    margin-bottom: 10px;
+div.campo, p{
+    margin: 10px;
 }
  div#sol{
     margin-top: 30px;    
