@@ -29,18 +29,24 @@
             <form action="cadastro.php" method="post" autocomplete="on">
                 <div class="campo" >
                     <label for="ihora">Horário: </label>
-                    <input type="time" name="hora" id="ihora">
+                    <input type="time" name="hora" id="ihora" required>
 
                     
                 </div>
                 <div class="campo">
                     <label for="escolha">Escolha uma opção:</label>
-                    <select id="escolha" name="escolha">
+                    <select id="escolha" name="escolha" required>
                     <option value="opcao1">Banho</option>
                     <option value="opcao2">Tosa</option>
                     <option value="opcao3">Bano e tosa</option>
                     <option value="opcao4">Creche</option>
                 </select>
+                </div>
+                <div class="campo">
+                    <label for="iemail">Seu e-mail:</label>
+                    <input type="email" name="email" id="iemail" required>
+                    <label for="inome">Nome: </label>
+                    <input type="text" name="nome" id="inome" required>
                 </div>
                 <div id="sol"><input type="submit"  value="Solicitar" name="sol" id="isol"></div>
             </form>
