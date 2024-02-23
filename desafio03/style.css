@@ -3,6 +3,12 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+   
+    background: linear-gradient(to bottom, #a39b86, #866512);
+    height: 100vh;
+      
+}
 header{
     height: 20vh;
     display: block;
@@ -46,12 +52,26 @@ nav.container{
     padding: 5px;
         
 }
-
-main{
+main.container{
     display: flex;
-    background: linear-gradient(to bottom, #a39b86, #866512);
-
+    flex-direction: column;
+    align-items: center; /* Alinha no centro horizontalmente */
+    justify-content: center;
+    width: 100vw;
+    
 }
+nav#nav2{
+    margin: 20px;
+}
+
+section#geral{
+    display: flex;
+    border: 2px solid black;
+    width: 70vw;
+  
+}
+
+
 section#descricao{
     flex: 1;
 }
@@ -59,13 +79,40 @@ section#foto{
     flex: 1;
     
     min-width: 400px;
+    display: flex;
+    
+    
+    
     
 }
+div#banho >h1, div#creche > h1{
+    text-align: center;
+    padding: 20px;
+}
+div#banho, div#creche{
+    text-align: justify;
+    padding: 30px;
+    font-size: 1.2em;
+    
+}
+div#banho{
+    display: block;
+}
+div#creche{
 
+    display: none;
+    
+}
 div#foto{
     display: block;
     background-color: aquamarine;
-    min-height: 400px;
-    flex: 1;
+    justify-content: center;
+    align-items: center;
     
+    
+    background: url(imagens/banho/banho01.jpg) no-repeat ;
+    background-size: contain;
+    
+    width: 200px;
+    height: 400px;
 }
