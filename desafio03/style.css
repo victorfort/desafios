@@ -6,7 +6,8 @@
 body{
    
     background: linear-gradient(to bottom, #a39b86, #866512);
-    height: 100vh;
+    
+    
       
 }
 header{
@@ -57,7 +58,7 @@ main.container{
     flex-direction: column;
     align-items: center; /* Alinha no centro horizontalmente */
     justify-content: center;
-    width: 100vw;
+    
     
 }
 nav#nav2{
@@ -80,6 +81,7 @@ section#foto{
     
     min-width: 400px;
     display: flex;
+    margin: 30px;
     
     
     
@@ -109,10 +111,13 @@ div#foto{
     justify-content: center;
     align-items: center;
     
-    
+    border: 2px solid rgb(6, 6, 6);
     background: url(imagens/banho/banho01.jpg) no-repeat ;
-    background-size: contain;
+    background-size: cover;
+    background-position: center bottom;
     
-    width: 200px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.622);
 }

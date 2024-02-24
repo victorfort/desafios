@@ -2,6 +2,7 @@
 var divFoto = document.querySelector("div#foto");
 var imgAtual = 1;
 var controle; 
+onload( clicou(1))
 
 function clicou(n){
     let desB = document.querySelector("div#banho")
