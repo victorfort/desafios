@@ -1,0 +1,68 @@
+
+body{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+
+}
+main{
+    width: 90%;
+    height: 45%;
+    max-width: 800px;
+    min-width: 500px; 
+    min-height: 350px;
+   display: flex;
+   flex-direction: column; 
+}
+.black{
+    background-color: black;
+    
+}
+.red{
+    background-color: red;
+}
+#l4, #l5, #l6, #l7{
+    height: 14%;
+    width: 100%;
+    
+    min-height: 50px;
+}
+#bloco1{
+    display: flex;
+    height: 43%;
+    width: 100%;
+   
+}
+
+#b1{
+    
+    background-image: url(crf.png);
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+   
+    
+    width: 25%;
+    height: 43%;
+    min-height: 150px;
+    
+    
+}
+
+
+#b2{
+    flex: 1;
+}
+#l1, #l2, #l3{
+   
+    width: 100%; 
+    min-height: 50px;
+   
+}
+#bloco2{
+   flex: 1;
+
+}
